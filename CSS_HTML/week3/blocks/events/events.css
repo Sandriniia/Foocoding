@@ -1,0 +1,6 @@
+.events {
+    margin: 0 auto;
+    max-width: 1140px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}

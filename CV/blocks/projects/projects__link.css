@@ -1,0 +1,30 @@
+.projects__link {
+    text-decoration: none;
+    color: #000;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;
+    width: fit-content;
+    font-size: 18px;
+}
+
+.projects__link:after {
+    display: block;
+    content: "";
+    background-color: #8B008B;
+    height: 3px;
+    width: 0%;
+    left: 50%;
+    position: absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.projects__link:hover:after,
+.projects__link:focus:after {
+    width: 100%;
+}

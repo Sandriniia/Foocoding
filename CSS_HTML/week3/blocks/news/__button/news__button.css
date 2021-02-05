@@ -1,0 +1,16 @@
+.news__button {
+    border: none;
+    outline: none;
+    background: #e94e0f;
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    padding-top: 30px;
+    font-size: 35px;
+    position: absolute;
+    top: 58%;
+    left: 86%;
+}

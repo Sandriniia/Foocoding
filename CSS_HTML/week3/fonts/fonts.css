@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "BodoniEgyptW01-Medium"; 
+    src: url("//db.onlinewebfonts.com/t/62da4a4f90cc96fa9b129a647a2af829.eot"); 
+    src: url("//db.onlinewebfonts.com/t/62da4a4f90cc96fa9b129a647a2af829.eot?#iefix") format("embedded-opentype");
+    src:url("//db.onlinewebfonts.com/t/62da4a4f90cc96fa9b129a647a2af829.woff2") format("woff2");
+    src:url("//db.onlinewebfonts.com/t/62da4a4f90cc96fa9b129a647a2af829.woff") format("woff"); 
+    src:url("//db.onlinewebfonts.com/t/62da4a4f90cc96fa9b129a647a2af829.ttf") format("truetype");
+    src:url("//db.onlinewebfonts.com/t/62da4a4f90cc96fa9b129a647a2af829.svg#BodoniEgyptW01-Medium") format("svg"); 
+}

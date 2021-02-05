@@ -1,0 +1,7 @@
+.work {
+    margin-bottom: 35px;
+}
+
+.work:hover .work__container {
+    animation-play-state: running;
+}

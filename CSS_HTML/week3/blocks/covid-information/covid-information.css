@@ -1,0 +1,9 @@
+.covid-information {
+    margin: 0 auto;
+    max-width: 1140px;
+    padding: 15px;
+    background-color: #35733c;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}

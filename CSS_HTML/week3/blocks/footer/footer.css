@@ -1,0 +1,8 @@
+.footer {
+    margin: 0 auto;
+    background-image: url(./../../images/bg-footer-navi.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0 55px 0;
+}

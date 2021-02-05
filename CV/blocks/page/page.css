@@ -1,0 +1,32 @@
+.page {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    min-width: 1280px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,p {
+    margin: 0;
+}
+
+p {
+    font-size: 17px;
+    color: #696969;
+}
+
+@keyframes move {
+    from {
+        transform: translate(0,0);
+        -webkit-transform: translate(0,0);
+        -o-transform: translate(0,0);
+        -moz-transform: translate(0,0);
+    }
+
+    to {
+        transform: translate(350px,0);
+        -webkit-transform: translate(350px,0);
+        -o-transform: translate(350px,0);
+        -moz-transform: translate(350px,0);
+    }
+}

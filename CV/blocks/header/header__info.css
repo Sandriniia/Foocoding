@@ -1,0 +1,6 @@
+.header__info {
+    max-width: 23%;
+    max-height: 0;
+    overflow: hidden;
+    transition: 1s;
+}

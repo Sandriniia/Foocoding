@@ -1,0 +1,7 @@
+.logos {
+    margin: 0 auto;
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 15px 60px;
+}

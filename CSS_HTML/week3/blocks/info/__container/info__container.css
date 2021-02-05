@@ -1,0 +1,8 @@
+.info__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #363636;
+    text-align: center;
+}

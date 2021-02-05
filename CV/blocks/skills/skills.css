@@ -1,0 +1,7 @@
+.skills {
+    margin-bottom: 35px;
+}
+
+.skills:hover .skills__column {
+    animation-play-state: running;
+}

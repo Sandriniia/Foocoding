@@ -1,0 +1,5 @@
+.events__text-box {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}

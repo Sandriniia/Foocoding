@@ -1,0 +1,7 @@
+.footer {
+    margin-bottom: 35px;
+}
+
+.footer:hover .footer__container {
+    animation-play-state: running;
+}

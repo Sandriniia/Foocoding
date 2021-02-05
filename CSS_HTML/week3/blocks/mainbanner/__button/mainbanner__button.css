@@ -1,0 +1,16 @@
+.mainbanner__button {
+    background-color: #e94e0f;
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    font-size: 35px;
+    border: none;
+    outline: none;
+    position: absolute;
+    left: 75%;
+    top: 50%;
+    cursor: pointer;
+}

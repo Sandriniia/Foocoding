@@ -1,0 +1,6 @@
+.work__container {
+   display: flex;
+   margin-bottom: 6px;
+   margin-top: 40px;
+   animation: move 1s forwards paused;
+}

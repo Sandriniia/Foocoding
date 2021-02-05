@@ -1,0 +1,7 @@
+.projects {
+    margin-bottom: 35px;
+}
+
+.projects:hover .projects__container {
+    animation-play-state: running;
+}

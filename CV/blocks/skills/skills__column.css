@@ -1,0 +1,7 @@
+.skills__column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin-top: 40px;
+    animation: move 1s forwards paused;
+}
