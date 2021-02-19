@@ -18,6 +18,7 @@ console.log(`The array has a length of ${favoriteAnimals.length}`);
 
 favoriteAnimals.splice(3,1);
 console.log(favoriteAnimals);
+console.log(favoriteAnimals.length);
 
 //one way to find index of 'meerkat'
 favoriteAnimals.forEach((item, i) => {
@@ -56,6 +57,7 @@ const personInfo = {
     cat: 2
 }
 
+
 function getPersonInfo(obj){
     let info = '';
     let keys = Object.keys(obj);
@@ -74,14 +76,24 @@ function vehicleType(color, code){
         return `a ${color} car`;
     }else if(code === 2){
         return `a ${color} motorbike`;
+    }else{
+        return 'invalid code';
     }
 }
 
 console.log(vehicleType('red',2));
 console.log(vehicleType('green',1));
 
+// function vehicleType(color, code){
+//     (code === 1) ? `a ${color} car` : `a ${color} motorbike`;
+// }
+
+// console.log(vehicleType('blue',2));
+// console.log(vehicleType('yellow',1));
+
 //5
-console.log((3 === 3) ? 'yes' : 'no');
+let yesOrNo =(3 === 3) ? 'yes' : 'no';
+console.log(yesOrNo);
 
 //6
 
@@ -92,11 +104,13 @@ function vehicle(color, code, age){
         }
         return `a ${color} car`;
     }
-    if(code === 2){
+    else if(code === 2){
         if(age > 0){
             return `a ${color} used motorbike`;
         }
         return `a ${color} motorbike`;
+    }else{
+        return 'invalid code';
     }
 }
 
@@ -185,6 +199,16 @@ let bar = 42;
 console.log(typeof typeof bar); //String
 
 //typeof bar = 'number'(output of the value as a string), so 'typeof typeof bar' it is the same as "typeof 'number'", this is return String, because 'number' in this case is a string
+
+const vowels = ['а', 'я', 'о', 'ё', 'у', 'ю', 'ы', 'и', 'э', 'е'].toString();
+
+function findVowels(str) {
+
+}
+
+findVowels('здравствуй'); // 2
+findVowels('привет'); // 2
+  
 
 
 
